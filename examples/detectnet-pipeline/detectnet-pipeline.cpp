@@ -124,7 +124,7 @@ int main( int argc, char** argv )
 		printf("detectnet-pipeline:  failed to create openGL display\n");
 
 
-    diplay->SetViewport(10, 10, pipeline->GetWidth(), pipeline->GetHeight());
+    display->SetViewport(10, 10, pipeline->GetWidth(), pipeline->GetHeight());
 
 	/*
 	 * start streaming
