@@ -124,6 +124,8 @@ int main( int argc, char** argv )
 		printf("detectnet-pipeline:  failed to create openGL display\n");
 
 
+    diplay=>SetViewport(10, 10, pipeline->GetWidth(), pipeline->GetHeight());
+
 	/*
 	 * start streaming
 	 */
@@ -132,7 +134,7 @@ int main( int argc, char** argv )
 		printf("detectnet-pipeline:  failed to open pipeline for streaming\n");
 		return 0;
 	}
-	
+
 	printf("detectnet-pipeline:  pipeline open for streaming\n");
 	
 	
@@ -182,7 +184,7 @@ int main( int argc, char** argv )
 		}
 
 		// print out timing info
-		net->PrintProfilerTimes();
+		//net->PrintProfilerTimes();
 	}
 	
 
