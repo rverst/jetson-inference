@@ -1,10 +1,10 @@
 [submodule "utils"]
 	path = utils
-	url = https://github.com/dusty-nv/jetson-utils
+	url = https://github.com/rverst/jetson-utils
 	branch = master
 [submodule "tools/camera-capture"]
 	path = tools/camera-capture
-	url = https://github.com/dusty-nv/camera-capture
+	url = https://github.com/rverst/camera-capture
 	branch = master
 [submodule "python/training/classification"]
 	path = python/training/classification
